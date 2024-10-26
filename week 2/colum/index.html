@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Bootstrap Layout Examples</title>
+  <style>
+    .bordered {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-4">
+  <h2>1. 2 Rows, 3 Columns</h2>
+  <div class="row">
+    <div class="col-md-4 bordered">Column 1</div>
+    <div class="col-md-4 bordered">Column 2</div>
+    <div class="col-md-4 bordered">Column 3</div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 bordered">Column 4</div>
+    <div class="col-md-4 bordered">Column 5</div>
+    <div class="col-md-4 bordered">Column 6</div>
+  </div>
+</div>
+
+<div class="container my-4">
+  <h2>2. 2 Rows, 2 Columns with Offset</h2>
+  <div class="row">
+    <div class="col-md-4 bordered">Column 1</div>
+    <div class="col-md-4 offset-md-4 bordered">Column 2</div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 bordered">Column 3</div>
+    <div class="col-md-4 offset-md-4 bordered">Column 4</div>
+  </div>
+</div>
+
+<h2>3. 2 Rows, 2 Columns without Container</h2>
+<div class="row">
+  <div class="col-md-6 bordered">Column 1</div>
+  <div class="col-md-6 bordered">Column 2</div>
+</div>
+<div class="row">
+  <div class="col-md-6 bordered">Column 3</div>
+  <div class="col-md-6 bordered">Column 4</div>
+</div>
+
+
+<div class="container my-4">
+  <h2>4. 2 Columns without Row</h2>
+  <div class="col-md-6 bordered">Column 1</div>
+  <div class="col-md-6 bordered">Column 2</div>
+</div>
+
+<div class="container my-4">
+  <h2>5. Responsive 1 Row, 3 Columns</h2>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 bordered">Column 1</div>
+    <div class="col-lg-4 col-md-6 col-sm-12 bordered">Column 2</div>
+    <div class="col-lg-4 col-md-6 col-sm-12 bordered">Column 3</div>
+  </div>
+ 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
